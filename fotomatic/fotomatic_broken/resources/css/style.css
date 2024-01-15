@@ -1,5 +1,6 @@
 /* font-style */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&display=swap");
 
 /* Universal Styles */
 
@@ -130,6 +131,9 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url(../images/banner-landingpage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -137,6 +141,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin: 170px auto 170px 100px;
+  margin-left: 100px;
 }
 
 #sign-up-cta .content {
@@ -154,6 +160,10 @@ header .mobile {
 
 #sign-up-cta h2 {
   font-size: 2.25rem;
+  color: white;
+  font-size: 50px;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.4;
 }
 
 #sign-up-cta span strong {
