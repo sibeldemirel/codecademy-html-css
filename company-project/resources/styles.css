@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    background-color: lavender;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        border-bottom: dashed 2px blueviolet;
+    }
+
+    .headerContainer{
+        color: blueviolet;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerContainerLeft{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .headerContainerLeftLogo{
+        border: 2px dashed blueviolet;
+        padding: 20px;
+        border-radius: 50%;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .headerContainerLeftTitle{
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        align-items: center;
+        margin-left: 15px;
+    }
+    
+    .headerContainerMenu{
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .headerContainerMenuItem{
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .headerContainerMenuItem:hover{
+        text-decoration: underline;
+    }
+
+    main{
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    .paletteContainer{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1fr);
+    }
+    
+    .purpleContainerFrame{
+        height: 200px;
+        width: 150px;
+        margin: 20px auto;
+        background-color: lightgray;
+        border: dashed 1px blueviolet;
+    }
+    
+    .purpleContainerFrameVariation{
+        height: 100px;
+        background-color: blueviolet;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .purpleContainerFrameCode{
+        text-align: center;
+        margin-top: 30px;
+        background-color: lightgray;
+    
+    }
+
+    footer{
+        display: flex;
+        height: 150px;
+        background-color: blueviolet;
+        justify-content: center;
+    }
+    
+    .footerContent{
+        text-align: center;
+        margin: auto;
+        color: lavender;
+        background-color: blueviolet;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .header{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        border-bottom: dashed 2px blueviolet;
+    }
+
+    .headerContainer{
+        color: blueviolet;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerContainerLeft{
+        width: 400px;
+        display: flex;
+        align-items: center;
+    }
+
+    .headerContainerLeftLogo{
+        border: 2px dashed blueviolet;
+        padding: 20px;
+        border-radius: 50%;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .headerContainerLeftTitle{
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .headerContainerMenu{
+        width: 250px;
+        display:  flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .headerContainerMenuItem{
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .headerContainerMenuItem:hover{
+        text-decoration: underline;
+    }
+
+    main{
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    .paletteContainer{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    
+    .purpleContainerFrame{
+        height: 200px;
+        width: 150px;
+        margin: 20px auto;
+        background-color: lightgray;
+        border: dashed 1px blueviolet;
+    }
+    
+    .purpleContainerFrameVariation{
+        height: 100px;
+        background-color: blueviolet;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .purpleContainerFrameCode{
+        text-align: center;
+        margin-top: 30px;
+        background-color: lightgray;
+    }
+
+    footer{
+        display: flex;
+        height: 150px;
+        background-color: blueviolet;
+        justify-content: center;
+    }
+    
+    .footerContent{
+        text-align: center;
+        margin: auto;
+        color: lavender;
+        background-color: blueviolet;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px)  {
+    .header{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        border-bottom: dashed 2px blueviolet;
+    }
+    
+    .headerContainer{
+        color: blueviolet;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .headerContainerLeft{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .headerContainerLeftLogo{
+        border: 2px dashed blueviolet;
+        padding: 20px;
+        border-radius: 50%;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .headerContainerLeftTitle{
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        align-items: center;
+    }
+    
+    .headerContainerMenu{
+        width: 250px;
+        display:  flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .headerContainerMenuItem{
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 20px;
+    }
+    .headerContainerMenuItem:hover{
+        text-decoration: underline;
+    }
+    
+    main{
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    main{
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    .paletteContainer{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    
+    .purpleContainerFrame{
+        height: 200px;
+        width: 150px;
+        margin: 20px 20px;
+        background-color: lightgray;
+        border: dashed 1px blueviolet;
+    }
+    
+    .purpleContainerFrameVariation{
+        height: 100px;
+        background-color: blueviolet;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .purpleContainerFrame{
+        height: 200px;
+        width: 150px;
+        margin: 20px auto;
+        background-color: lightgray;
+        border: dashed 1px blueviolet;
+    }
+    
+    .purpleContainerFrameVariation{
+        height: 100px;
+        background-color: blueviolet;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .purpleContainerFrameCode{
+        text-align: center;
+        margin-top: 30px;
+        background-color: lightgray;
+    
+    }
+    
+    footer{
+        display: flex;
+        height: 150px;
+        background-color: blueviolet;
+        justify-content: center;
+    }
+    
+    .footerContent{
+        text-align: center;
+        margin: auto;
+        color: lavender;
+        background-color: blueviolet;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+    }
+}
+
+
